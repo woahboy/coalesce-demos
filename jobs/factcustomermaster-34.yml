@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "34"
+includeSelector: "+{ location: WORK name: FCT_CUSTOMER_MASTER }"
+name: fact customer master
+type: Job
