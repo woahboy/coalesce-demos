@@ -105,7 +105,10 @@ operation:
           stepCounter: 689c8357-e454-410a-aa91-b48ce2ba0361
         config: {}
         dataType: VARCHAR(10)
-        description: ""
+        description: |-
+          - This column is derived from the `CUSTOMER` table, specifically from the `C_ACCTBAL` and `C_MKTSEGMENT` columns, categorizing customers into 'HIGH' or 'LOW' value segments.
+          - It flags customers as 'HIGH' if their account balance (`C_ACCTBAL`) exceeds 50000 or if their market segment (`C_MKTSEGMENT`) is either 'BUILDING' or 'HOUSEHOLD'; otherwise, they are flagged as 'LOW'.
+          - This categorization facilitates targeted marketing and customer relationship strategies based on customer value.
         name: C_VALUE
         nullable: true
         sourceColumnReferences:
