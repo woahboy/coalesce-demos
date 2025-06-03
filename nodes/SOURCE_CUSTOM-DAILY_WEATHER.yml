@@ -1,0 +1,54 @@
+fileVersion: 1
+id: ae543f0b-2615-48ab-a5e2-cb5fd4570442
+name: DAILY_WEATHER
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SOURCE_CUSTOM
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a81bdb57-c5cc-47d8-8503-7fce59076989
+          stepCounter: ae543f0b-2615-48ab-a5e2-cb5fd4570442
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: V
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 485ec9c0-5e95-4f58-a741-a882b48484b6
+          stepCounter: ae543f0b-2615-48ab-a5e2-cb5fd4570442
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: T
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: DAILY_WEATHER
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
